@@ -1,0 +1,32 @@
+baseURL = "https://kerala.openstreetmap.in"
+languageCode = "en-us"
+title = "Kerala Open Street Maps"
+paginate = 10
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+googleAnalytics = ""
+theme = "compose"
+
+[params]
+copyright = "Except where otherwise noted, content on this site is licensed under the [CC-BY license.](https://creativecommons.org/licenses/by/4.0/) {year}"
+subtitle = "Activity log of Open street maps kerala chapter"
+ logo = "images/logo.svg"
+
+[taxonomies]
+   tag = "tags"
+   author = "authors"
+
+[menu]
+    [[menu.header]]
+      identifier = "home"
+      name = "Home"
+      url = "/"
+      weight = 1
+    
+    [[menu.header]]
+      identifier = "about"
+      name = "About Us"
+      url = "/about"
+      weight = 2
+

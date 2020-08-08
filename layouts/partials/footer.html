@@ -1,0 +1,8 @@
+{{ if .Site.Params.enableCopyright | default true }}
+<footer class="mt-2 pt-2 pb-2">
+  <div class="wrap">
+    <p>&copy; {{ with site.Params.copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}</p>
+  </div>
+</footer>
+{{ end }}
+

@@ -8,6 +8,21 @@ pygmentscodefencesguesssyntax = true
 googleAnalytics = ""
 theme = "compose"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 2
+
 [params]
 copyright = "Except where otherwise noted, content on this site is licensed under the [CC-BY license.](https://creativecommons.org/licenses/by/4.0/) {year}"
 subtitle = "Activity log of Open street maps kerala chapter"
@@ -18,11 +33,11 @@ subtitle = "Activity log of Open street maps kerala chapter"
    author = "authors"
 
 [menu]
-    [[menu.header]]
-      identifier = "home"
-      name = "Home"
-      url = "/"
-      weight = 1
+    # [[menu.header]]
+    #   identifier = "home"
+    #   name = "Home"
+    #   url = "/"
+    #   weight = 1
     
     [[menu.header]]
       identifier = "about"

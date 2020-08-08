@@ -1,0 +1,16 @@
+
+{{ define "main" }}
+
+<section class="grid-2 mt-2">
+  <div>
+    <ul class="contents">
+      {{ range .Paginator.Pages }}
+          <li><h5><a href="{{.RelPermalink}}">{{.LinkTitle}}</a></h5> {{with .Params.summary}}<p>{{. | plainify | emojify}}</p>{{end}}</li>
+      {{ end }}
+      </ul>
+  </div>
+  <div>
+    {{ .Content }}
+  </div>
+  </section>
+{{ end }}

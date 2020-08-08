@@ -29,4 +29,5 @@ jobs:
           publish_branch: master  # deploying branch
           cname: kerala.openstreetmap.in
           user_name: 'joicemjoseph'
-          user_email: 'joice@moolekkari.net'
+          # user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

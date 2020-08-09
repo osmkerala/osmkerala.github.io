@@ -1,4 +1,4 @@
-baseURL = "https://kerala.openstreetmap.in/"
+baseURL = "https://osmkerala.github.io/"
 languageCode = "en-us"
 title = "Kerala Open Street Maps"
 paginate = 10

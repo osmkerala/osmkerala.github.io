@@ -1,6 +1,6 @@
 baseURL = "https://kerala.openstreetmap.in/"
 languageCode = "en-us"
-title = "Kerala Open Street Maps"
+title = "Open Street Map Kerala"
 paginate = 10
 pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
@@ -27,7 +27,7 @@ theme = "compose"
   activities = "activities/:year/:month/:day/:filename/"
 
 [params]
-  copyright = "Except where otherwise noted, content on this site is licensed under the [CC-BY license.](https://creativecommons.org/licenses/by/4.0/) {year}"
+  copyright = "Except where otherwise noted, content on this site is licensed under the [CC-BY-SA license.](https://creativecommons.org/licenses/by-sa/4.0/) {year}"
   subtitle = "Activity log of Open street maps kerala chapter"
   logo = "images/logo.svg"
 

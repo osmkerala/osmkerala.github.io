@@ -1,3 +1,3 @@
 # kerala.openstreetmap.in
 
-Website for Kerala openstreetmaps community
+website for openstreetmaps kerala community

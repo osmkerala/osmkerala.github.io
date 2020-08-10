@@ -5,7 +5,7 @@ draft: false
 description: "Mapping Kerala"
 author: manojk
 authors: ["manojk"]
-tags: ["mapping"]
+tags: ["mapping", "activities"]
 ---
 
 Testing Activity Page.

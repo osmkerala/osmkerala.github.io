@@ -24,7 +24,7 @@ theme = "compose"
     tabWidth = 2
 
 [permalinks]
-  activities = "activities/:year/:month/:day/:filename/"
+  activities = "/filename/"
 
 [params]
   copyright = "Except where otherwise noted, content on this site is licensed under the [CC-BY-SA license.](https://creativecommons.org/licenses/by-sa/4.0/) {year}"

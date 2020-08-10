@@ -5,8 +5,8 @@ title = "About us"
 
 {{< block "grid-2 mt-2" >}}
 {{< column >}}
-
-#  We are working on it.
+Open Street Map - Kerala
+#  Page under Developing.
 Coming soon
 {{< /column >}}
 {{< column >}}

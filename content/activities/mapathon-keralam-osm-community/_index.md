@@ -1,3 +1,12 @@
+---
+title: "Mapathon Keralam and OpenStreetMap Community Collaboration"
+date: 2020-09-15T17:53:58+05:30
+draft: false
+description: "Letter to Director Kerala IT Mission, behalf of the OpenStreetMap India Community on 14 September 2020"
+author: manojk
+authors: ["manojk"]
+tags: ["OpenStreetMap", "Mapathon"]
+---
 # Mapathon Keralam and OpenStreetMap Community Collaboration
 > [This is the letter to Director Kerala IT Mission, behalf of the OpenStreetMap India Community on 14 September 2020 (PDF)](https://wiki.openstreetmap.org/wiki/File:Mapathon_Keralam_and_OpenStreetMap_Community_Collaboration.pdf)
 

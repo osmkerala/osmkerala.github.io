@@ -13,7 +13,7 @@ OSM Kerala Community has been very active over the past 13 years.
 Community has been mapping various features over the years.
 During the 2018 floods, Openstreetmaps was widely used.
 Community has been actively enaging with various partners.
-
+<!-- 
 ## Partners
 #### OSM India 
 Our father and mother
@@ -37,7 +37,7 @@ Our twin sibling, Let's grow together
 ### Facebooks MapwithAI team
 1. ![](3.png)
 #### Few of them are below.
-
+-->
 ##### Administrative Boundaries
 * State Boundaries
 * District Boundaries

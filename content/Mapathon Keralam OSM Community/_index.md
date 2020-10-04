@@ -1,5 +1,5 @@
 # Mapathon Keralam and OpenStreetMap Community Collaboration
-> [This is the letter to Director Kerala IT Mission, behalf of the OpenStreetMap India Community (PDF)](https://wiki.openstreetmap.org/wiki/File:Mapathon_Keralam_and_OpenStreetMap_Community_Collaboration.pdf)
+> [This is the letter to Director Kerala IT Mission, behalf of the OpenStreetMap India Community on 14 September 2020 (PDF)](https://wiki.openstreetmap.org/wiki/File:Mapathon_Keralam_and_OpenStreetMap_Community_Collaboration.pdf)
 
 Dear Smt. Chithra,
 

@@ -1,6 +1,6 @@
 ---
 title: "Mapathon Keralam and OpenStreetMap Community Collaboration"
-date: 2020-09-15T17:53:58+05:30
+date: 2020-08-20T17:53:58+05:30
 draft: false
 description: "Letter to Director Kerala IT Mission, behalf of the OpenStreetMap India Community on 14 September 2020"
 author: manojk

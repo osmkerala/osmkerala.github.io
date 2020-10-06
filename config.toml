@@ -46,4 +46,9 @@ theme = "compose"
     name = "Activities"
     url = "/activities"
     weight = 3
+  [[menu.header]]
+    identifier = "activities"
+    name = "Statement"
+    url = "/mapathon-keralam-osm-community-statement/"
+    weight = 4
 

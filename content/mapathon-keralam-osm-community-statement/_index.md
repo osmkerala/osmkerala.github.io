@@ -28,13 +28,13 @@ We would be happy if you convene a meeting to discuss implementation of these st
 
 This letter and statement is endorsed by the following OpenStreetMap Kerala and India community members:
 
-1. Sajjad Anwar(geohacker)
-2. Naveen Francis(naveenpf)
-3. Manoj K(manojkmohan)
-4. Arun Ganesh(planemad)
-5. Satyakam Goswami(Satyaakam)
-6. Kelvin Matthew(muzirian)
-7. Arjun ARK(ark_arjun)
+1. Sajjad Anwar (geohacker)
+2. Naveen Francis (naveenpf)
+3. Manoj K (manojkmohan)
+4. Arun Ganesh (planemad)
+5. Satyakam Goswami (Satyaakam)
+6. Kelvin Matthew (muzirian)
+7. Arjun ARK (ark_arjun)
 
 ---
 1. https://wiki.openstreetmap.org/wiki/Mapathon_Keralam

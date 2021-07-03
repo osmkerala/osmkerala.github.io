@@ -38,17 +38,48 @@ Our twin sibling, Let's grow together
 1. ![](3.png)
 #### Few of them are below.
 -->
-##### Administrative Boundaries
+##### Boundaries
+###### Administrative
 * State Boundaries
 * District Boundaries
 * Taluk Boundaries
+###### Political
+* Lok Sabha Constituencies
+* Assembly Constituencies
+###### Local Govt Bodies
+* Local Bodies in KeralaYes check.svg
+* Local Bodies Wards in Kerala
+
+##### Environment
+* Rivers
+* Lakes
+* Reservoirs
+* Lagoons and Estuaries
+* Water Streams
+* Ponds
+* Forests
 
 ##### Roads
 * National Highway
 * State Highway
 * Major District road
 
+##### Railways
+* Railways Stations
+* Kochi Metro 
+* Proposed Silverline (K-rail)
+
+##### Amenity
+* Police station
+* Fire and Rescue station
+* Health Facilities in Kerala
+
 Define Community and Activies
+* Mapathons
+* Webinars 
+* 
+*
+
 {{< /column >}}
 {{< column >}}
 ![diy](/images/osmkerala_logo.svg)

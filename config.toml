@@ -1,6 +1,6 @@
 baseURL = "https://kerala.openstreetmap.in/"
 languageCode = "en-us"
-title = "Open Street Map Kerala"
+title = "OpenStreetMap Kerala"
 paginate = 10
 pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
@@ -51,4 +51,8 @@ theme = "compose"
     name = "Statement"
     url = "/mapathon-keralam-osm-community-statement/"
     weight = 4
-
+[[menu.header]]
+    identifier = "community"
+    name = "Community"
+    url = "/building-osm-kerala-community/"
+    weight = 5

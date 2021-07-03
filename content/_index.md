@@ -1,5 +1,5 @@
 +++
-title = "Kerala Open Street Map"
+title = "OpenStreetMap Kerala"
 +++
 
 {{< block "grid-2 mt-2" >}}

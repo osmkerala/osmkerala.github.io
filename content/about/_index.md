@@ -74,7 +74,7 @@ Our twin sibling, Let's grow together
 * Fire and Rescue station
 * Health Facilities in Kerala
 
-Define Community and Activies
+### Activies
 * Mapathons
 * Webinars 
 * 

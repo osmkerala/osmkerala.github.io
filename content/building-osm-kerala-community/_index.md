@@ -97,25 +97,3 @@ On the request from the Arun, GIS Head from ICFOSS, Wayanad OSM pilot report was
 
 OSM Kerala volunteers had travelled to Thrivanathapuram for IT Mission meeting.  KSITM KSDI’s Mapathon Kerala project community consultation was held on March 8 2019  2.30PM. It was a OSM Kerala community pre-consultation on crowd Sourcing data for OSM. The meeting was presided by Dr Chitra , Director KSITM.  OSM Volunteers attended - User:Manojk,User:Muzirian,User:Jaisuvyas,User:Naveenpf.
 Link the minutes:- https://wiki.openstreetmap.org/w/images/f/fd/Mapathon-Minutes.pdf 
-
-
-## Acknowledgement
-OSM Kerala community want to thank employees of Kerala IT Mission and ICFOSS
-
-* Dr Chitra IAS - Director, IT Mission
-* Sabarish - Director, ICFOSS
-* Arun  - Project Manager , KSDI
-* Anu Murali , Spatial Dataofficer, KSDI
-* Kalaraj S, KSDI
-* Tanish CB ,KSDI
-* Viji R V, KSDI
-* Saritha KS,KSDI
-
-
-----
-Photos
-OSM Kerala Logo. https://wiki.openstreetmap.org/wiki/Logos#in_India 
-
-https://i.imgur.com/QF5vIsi.jpg
-
-https://i.imgur.com/SR9nZTC.jpg

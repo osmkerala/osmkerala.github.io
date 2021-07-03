@@ -6,9 +6,11 @@ title = "OpenStreetMap Kerala"
 {{< column >}}
 
 # OpenStreetMap Kerala Community 
-![](https://i.imgur.com/WdweAvm.png)
 * [Wiki](https://wiki.openstreetmap.org/wiki/Kerala)
 * [Website](https://kerala.openstreetmap.in/)   
 * [Telegram](https://t.me/osmkerala)
 * [Github](https://github.com/osmkerala) 
 * [Facebook](https://facebook.com/osmkerala/)
+
+![](https://i.imgur.com/WdweAvm.png)
+

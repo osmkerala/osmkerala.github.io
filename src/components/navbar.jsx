@@ -34,7 +34,7 @@ export default function Navbar() {
                 <NavbarButton
                   isMobile={false}
                   link="/statement"
-                  text="SATEMENT"
+                  text="STATEMENT"
                 />
                 <NavbarButton
                   isMobile={false}
@@ -95,7 +95,7 @@ export default function Navbar() {
                 <NavbarButton
                   isMobile={true}
                   link="/statement"
-                  text="SATEMENT"
+                  text="STATEMENT"
                 />
               </div>
               <div className="m-2 p-2 mr-8">

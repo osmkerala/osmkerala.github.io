@@ -33,8 +33,8 @@ export default function Navbar() {
                 />
                 <NavbarButton
                   isMobile={false}
-                  link="/statement"
-                  text="STATEMENT"
+                  link="/blogs"
+                  text="BLOGS"
                 />
                 <NavbarButton
                   isMobile={false}
@@ -88,16 +88,17 @@ export default function Navbar() {
               <div className="m-2 p-2 mr-8">
                 <NavbarButton isMobile={true} link="/" text="HOME" />
               </div>
+                  <div className="m-2 p-2 mr-8">
+               <NavbarButton
+                  isMobile={true}
+                  link="/blogs"
+                  text="BLOGS"
+                />
+              </div>
               <div className="m-2 p-2 mr-8">
                 <NavbarButton isMobile={true} link="/about" text="ABOUT US" />
               </div>
-              <div className="m-2 p-2 mr-8">
-                <NavbarButton
-                  isMobile={true}
-                  link="/statement"
-                  text="STATEMENT"
-                />
-              </div>
+
               <div className="m-2 p-2 mr-8">
                 <NavbarButton
                   isMobile={true}

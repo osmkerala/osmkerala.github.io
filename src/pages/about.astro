@@ -1,19 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/navbar.jsx';
 import HeadingComponent from '../components/elements/heading';
 ---
 
 <Layout title="Welcome to OSM Kerala.">
 	<main>
-		<div>
-			<Navbar client:load />			
-		</div>
         <div class="flex-col  items-center m-2 p-2   justify-center">
             <div>
                 <HeadingComponent heading="About Us" />
-                <div>
-                    <img src="/osmcommunity.jpg" width={300} alt ="hero image" />
+                <div class="m-2 p-2">
+                    <img src="/osmcommunity.jpg" width={900} alt ="hero image"
+/>
                 </div>
                 <div class="p-4">
                     <!-- <h2 class="text-xl font-semibold mb-2">About Us:</h2> -->
@@ -30,7 +27,10 @@ import HeadingComponent from '../components/elements/heading';
             
                     <h2 class="text-xl font-semibold mb-2">Areas of Focus:</h2>
             
-                    <h3 class="text-lg font-semibold mb-2">Boundaries</h3>
+                    <h3 class="text-lg underline decoration-2 font-semibold
+ mb-2"><a
+href="https://wiki.openstreetmap.org/wiki/Kerala#Boundaries">
+                    Boundaries</a></h3>
                     <ul class="list-disc pl-5 mb-4">
                         <li>Administrative Boundaries
                             <ul class="list-disc pl-5">
@@ -53,7 +53,9 @@ import HeadingComponent from '../components/elements/heading';
                         </li>
                     </ul>
             
-                    <h3 class="text-lg font-semibold mb-2">Environment</h3>
+                    <h3 class="text-lg underline decoration-2  font-semibold
+mb-2"><a href="https://wiki.openstreetmap.org/wiki/Kerala#Environment">
+Environment</a></h3>
                     <ul class="list-disc pl-5 mb-4">
                         <li>Rivers</li>
                         <li>Lakes</li>
@@ -64,21 +66,28 @@ import HeadingComponent from '../components/elements/heading';
                         <li>Forests</li>
                     </ul>
             
-                    <h3 class="text-lg font-semibold mb-2">Roads</h3>
+                    <h3 class="text-lg underline decoration-2    font-semibold
+mb-2"><a
+href="https://wiki.openstreetmap.org/wiki/Kerala#Infrastructure">Roads</a></h3>
                     <ul class="list-disc pl-5 mb-4">
                         <li>National Highway</li>
                         <li>State Highway</li>
                         <li>Major District Road</li>
                     </ul>
             
-                    <h3 class="text-lg font-semibold mb-2">Railways</h3>
+                    <h3 class="text-lg underline decoration-2 font-semibold
+mb-2"><a
+href="https://wiki.openstreetmap.org/wiki/Kerala#Infrastructure">
+Railways</a></h3>
                     <ul class="list-disc pl-5 mb-4">
                         <li>Railway Stations</li>
                         <li>Kochi Metro</li>
                         <li>Proposed Silverline (K-rail)</li>
                     </ul>
             
-                    <h3 class="text-lg font-semibold mb-2">Amenity</h3>
+                    <h3 class="text-lg underline decoration-2 font-semibold
+mb-2"><a href="https://wiki.openstreetmap.org/wiki/Kerala#Amenity"
+>Amenity</a></h3>
                     <ul class="list-disc pl-5 mb-4">
                         <li>Police Stations</li>
                         <li>Fire and Rescue Stations</li>

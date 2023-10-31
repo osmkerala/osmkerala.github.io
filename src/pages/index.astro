@@ -1,13 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/navbar.jsx';
 import SearchBar from '../components/elements/search';
 ---
 
 <Layout title="Welcome to OSM Kerala.">
 	<main>
 		<div>
-			<Navbar client:load />
 			<div>
 			<div class="flex m-2 p-2  justify-center">
 				<div class="flex items-center justify-center">
@@ -22,7 +20,8 @@ import SearchBar from '../components/elements/search';
 					<p>OpenStreetMap (OSM) Kerala is your gateway to discovering the picturesque Indian state of Kerala through interactive and up-to-date maps. Our dedicated community of mappers and enthusiasts is committed to charting Kerala's diverse landscapes, from lush greenery to serene backwaters.</p>
 				</div>
 				<div class="flex m-2 p-2  justify-center">
-					<img src="/group_photo.jpeg" width={450} class="rounded-md" alt ="hero image" />
+					<img src="/group_photo.jpeg" width={500} class="rounded-md"
+alt ="hero image" />
 				</div>
 			</div>
 			</div>

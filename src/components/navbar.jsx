@@ -31,11 +31,7 @@ export default function Navbar() {
                   link="/community"
                   text="COMMUNITY"
                 />
-                <NavbarButton
-                  isMobile={false}
-                  link="/blogs"
-                  text="BLOGS"
-                />
+                <NavbarButton isMobile={false} link="/blogs" text="BLOGS" />
                 <NavbarButton
                   isMobile={false}
                   link="/maintainers"
@@ -88,12 +84,8 @@ export default function Navbar() {
               <div className="m-2 p-2 mr-8">
                 <NavbarButton isMobile={true} link="/" text="HOME" />
               </div>
-                  <div className="m-2 p-2 mr-8">
-               <NavbarButton
-                  isMobile={true}
-                  link="/blogs"
-                  text="BLOGS"
-                />
+              <div className="m-2 p-2 mr-8">
+                <NavbarButton isMobile={true} link="/blogs" text="BLOGS" />
               </div>
               <div className="m-2 p-2 mr-8">
                 <NavbarButton isMobile={true} link="/about" text="ABOUT US" />

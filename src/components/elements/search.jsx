@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 export default function SearchBar() {
   const [value, setValue] = useState("");
-  //   const [suggestions, setSuggestions] = useState([]);
+  const [suggestions, setSuggestions] = useState([]);
   return (
     <input
       type="text"

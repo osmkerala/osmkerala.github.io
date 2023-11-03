@@ -79,7 +79,7 @@ export default function Navbar() {
             </div>
           </div>
           {isOpen && (
-            <div className="absolute top-13 right-5  text-semiblod flex-col text-right w-fit justify-self-end rounded-lg bg-[#1a1d20] text-[#ffffff]">
+            <div className="absolute top-13 right-5  text-semiblod flex-col text-right w-fit justify-self-end rounded-lg bg-[#09471a] text-[#ffffff]">
               {/* Add your mobile navigation links here */}
               <div className="m-2 p-2 mr-8">
                 <NavbarButton isMobile={true} link="/" text="HOME" />

@@ -1,0 +1,61 @@
+---
+const { frontmatter } = Astro.props;
+import Footer from '../components/elements/footer.astro';
+import Navbar from '../components/navbar.jsx';
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Astro description" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="icon" type="image/svg+xml" href="/osmkerala.png" />
+  <meta name="generator" content={Astro.generator} />
+  <!-- <title>{title}</title> -->
+  <style>
+    h1 {
+      font-size: 2em;
+      /* Add any other styles you want for h1 */
+    }
+  </style>
+</head>
+<body>
+  <Navbar client:load />
+  <div class="m-2 p-2 ">
+    <h1 class="text-3xl font-bold">{frontmatter.title}</h1>
+    <h2 class="text-xl font-medium">{frontmatter.description}</h2>
+    <p>{frontmatter.description}</p>
+    <slot>
+      <h1 class="font-bold"></h1>
+    </slot> <!-- Markdown content is injected here -->
+  </div>
+  <Footer/>
+</body>
+</html>
+
+<style is:global>
+  :root {
+    --accent: 136, 58, 234;
+    /* ... (other styles) ... */
+  }
+  html {
+    font-family: system-ui, sans-serif;
+    /* ... (other styles) ... */
+  }
+  .markdown-styles h1 {
+    /* Add your specific styles for h1 here */
+    font-size: 2em;
+    /* Other style properties */
+  }
+  code {
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      Liberation Mono,
+      DejaVu Sans Mono,
+      Bitstream Vera Sans Mono,
+      Courier New,
+      monospace;
+  }
+</style>

@@ -1,3 +1,5 @@
-# kerala.openstreetmap.in
 
-website for openstreetmaps kerala community
+### Installing Dependencies
+`pnpm install`
+### For running the server
+`pnpm run dev`

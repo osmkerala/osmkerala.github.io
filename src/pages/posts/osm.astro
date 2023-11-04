@@ -1,0 +1,131 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import HeadingComponent from '../../components/elements/heading';
+---
+
+<Layout title="Welcome to OSM Kerala.">
+
+<div class="m-2 p-2">
+  <section class="article">
+
+      
+    <img class="news-feature-image"  src="https://cdn.hotosm.org/website/OSMK3-75aeb5.jpeg">
+  
+
+  
+    <p class="news-summary">An overview of OSM Kerala's inspiring journey and continued efforts to strengthen the use of OSM in Kerala for disaster response and community development.</p>
+  
+
+  <div class="news-content">
+    <p><strong>About Kerala</strong></p>
+<ul>
+<li>Kerala, the southern state of India, is full of diversity. Diversity of people, diversity of communities, and diversity of places. This diversity demands proper maps for the state to enable effective development and management decision-making for both government and citizens. And this diversity poses challenges for mapping in the state.</li>
+</ul>
+
+<p><strong>Pre-era Mapping</strong></p>
+<ul>
+<li>In 2008, the first known OpenStreetMap activity took place in Kerala. <a href="https://wiki.openstreetmap.org/wiki/India/Events/Free_Map_India_2008">The Free Map India</a>: series of workshops, facilitated by <a href="https://wiki.openstreetmap.org/wiki/User:SchuylerErle">Schuyler Erle</a> and <a href="https://wiki.openstreetmap.org/wiki/User:Mikel">Mikel Maron</a>, was hosted by the <a href="https://www.iiitmk.ac.in/">Indian Institute of Information Technology and Management Kerala (IIITMK)</a> in the state capital Thiruvanathapuram. In October 2009, the <a href="http://www.nitc.ac.in/">National Institute of Technology</a>, Calicut hosted the first mapping party in Kerala in connection with their annual tech fest, <a href="https://tathva.org/">Tathva</a>, in cooperation with the <a href="http://fsugcalicut.org/">Free Software User Group Calicut</a>(FSUG-CALICUT). The Mapping Party was facilitated by <a href="https://geohackers.in/">GeoHackers</a>. Later that year, the state capital hosted another <a href="https://wiki.openstreetmap.org/wiki/Trivandrum_mapping_party_12_dec">mapping party</a> on the 12th and 13th of December.</li>
+</ul>
+
+<p><strong>The new start</strong></p>
+<ul>
+<li>In spite of these events and many active individual mappers mapping Kerala during this period, there wasn’t an active mapping community in the region to bring people together. It wasn’t until the 2014 <a href="https://blog.smc.org.in/mapping-efforts-in-an-unsurveyed-land-koorachundu/">Koorchundu mapping Party V1</a> that a mapping community grew up around OpenStreetMap in Kerala.</li>
+</ul>
+
+<p>In July, under the leadership of Jaisen Nedumpala, then-Assistant Secretary, Koorachundu Grama Panchayat initiated a mapping party to map the boundaries for the panchayat (a village council). OpenStreetMap Kerala volunteers, students, and Wikimedia volunteers were assembled for the mapping party in collaboration with the Panchayat, the local administrative body, and  <a href="https://smc.org.in/">Swathanthra Malayalam Computing(SMC)</a>. Twenty-three volunteers received training and mapped the boundary in OSM with GPS traces taken using the android mobile phones added.</p>
+
+<p>The five-day mapping party mapped the roads, ward boundaries, schools, health centers, and some other features and POIs of the remote panchayat. Following the Koorachundu model, the Unnikulam Grama Panchayat conducted a mapping party to create a ward boundary map in August of the same year.</p>
+
+<p><img src="https://cdn.hotosm.org/website/OSMK1.jpeg" alt="OSMK1.jpeg" /></p>
+
+<p>In 2016, more people started coming forward to host mapping parties. <a href="https://twitter.com/manojkmohan">Manoj Karingamadathil</a>, an OSM Kerala volunteer, led two mapping parties in June and July 2016 at <a href="https://wiki.openstreetmap.org/wiki/OSM_Mapping_Workshop_June_2016_%E2%80%93_Vidya_Academy">Vidya Acadamy of Science &amp; Technology</a> and <a href="https://wiki.openstreetmap.org/wiki/Velur_Panchayath_Mapping_Party">Velur Panchayat</a>. Unlike previous mapping parties, these two helped in creating a larger diversity of data uploaded to OSM. It slowly became a norm to organize a mapping party for many FOSS events like Software Freedom Day.</p>
+
+<p><strong>The Kerala Floods</strong></p>
+<ul>
+<li>With the catastrophic <a href="https://en.wikipedia.org/wiki/2018_Kerala_floods">flood in 2018</a>, Kerala understood the importance of open data for the first time. The existing maps were not useful as they were either at inaccessible locations or were not scientifically prepared for use in a flooding disaster. The rescue operations led by local government bodies could not be executed properly as the administrative boundaries, buildings, and roads were not mapped clearly. For the first time, the citizen mappers saw the need to use the coordinates for landmarks as everything was submerged.</li>
+</ul>
+
+<p><img src="https://cdn.hotosm.org/website/OSMK2.jpeg" alt="OSMK2.jpeg" />
+(Mapathon for the Kerala Flood in 2018)</p>
+
+<p>The OSM Kerala Community then swiftly started <a href="https://wiki.openstreetmap.org/wiki/Kerala_Community_Flood_Response_Mapping">flood response mapping</a>. While the floods still raged, developers in Kerala came together to make the datasets keralarescue.in and microid.in/keralaflood using OpenStreetMap data. (1) The keralaresuce.in portal’s map was used to collect requests for help so that agencies could reach them, while microid.in/keralaflood was used to map the flooded roads so that people could use them to plan their journey.</p>
+
+<p>The Kerala community engaged <a href="https://www.hotosm.org/">HOT</a> and created <a href="https://wiki.openstreetmap.org/wiki/2018_Kerala_Floods,_India">remote mapping</a> tasks for the Thrissur, Ernakulam, Pathanamthitta, Wayanad, Alleppey, Idukki districts. The community also reached out to companies like Microsoft, Grab, Amazon Logistics, Facebook, Mapbox for support. Maxar Technologies (Digital Globe) released satellite imagery through its Open data program. A <a href="https://wiki.openstreetmap.org/wiki/Kerala_Road_Import">road import</a> was done by a collaboration between Facebook and the community.</p>
+
+<p>It was also during that time the community organized its <a href="https://wiki.openstreetmap.org/wiki/Kerala_Community_Flood_Response_Mapping#Sep_15_-_Software_freedom_day_at_Thrissur.2C_Kerala">first mapathon</a> for the floods in partnership with FOSSers of <a href="https://www.vidyaacademy.ac.in/">Vidya Academy of Science &amp; Technology</a>, HOT, and various other organizations, where we completed three taluks (an administrative district comprising of a number of villages), Mukundapuram, Chalakkudy, and Thrissur. Thirty-six volunteers registered through google forms. In under 5 hours of work, we were able to map: 4,388 edits, 2,799 buildings, and 118 km of road, and map lakes, streams, and other geographic features.</p>
+
+<p><strong>The Association with the government</strong></p>
+<ul>
+<li>To further strengthen the movement, the community decided to advocate for the need for open geodata to the state government. On 28 August 2018, OSM Kerala and friends in CIS submitted a proposal to the Kerala government’s then IT Secretary, <a href="https://itmission.kerala.gov.in/">IT Mission</a> director, and ICFOSS Director for releasing data for use in OSM. On 16 September 2018, the team got approval from the IT Secretary. 
+At the request of the GIS Head of ICFOSS, the Wayanad OSM pilot report was prepared and sent to the Government by <a href="https://twitter.com/naveenpf">Naveen Francis</a> and <a href="https://twitter.com/Muzirian">Kelvin Geo</a> on 27 November 2018. For this pilot project, the community created a road mapping project and building mapping project for Wayanad on the mapmykerala.in instance of OSM.
+The pre-consultation for crowdsourcing data for OSM was held on 8 March 2019 for <a href="http://www.ksdi.kerala.gov.in/ksdi/">KSDI</a>’s <a href="https://mapathonkeralam.in/">Mapathon Keralam</a> project. Then, the ambitious ‘Mapathon Keralam’ project, a crowd-sourced mapping initiative by the Kerala State government, was launched on 23 October 2019 by Chief Minister Pinarayi Vijayan. Through this, state GIS experts trained college students and other volunteers to map.</li>
+</ul>
+
+<p><strong>Current priorities</strong></p>
+<ul>
+<li>Since the start of the pandemic, OSM Kerala has taken the opportunity to reach out to more people online and provide support to pandemic responses. To support the community with several lockdown measures and boundary categorizations in Kerala, OSM Kerala volunteers and Open Data Kerala published geospatial data on the <a href="https://timesofindia.indiatimes.com/city/kochi/open-data-maps-of-local-bodies-created/articleshow/78974570.cms?utm_source=twitter.com&amp;utm_medium=social&amp;utm_campaign=TOIKochiNews">Admin level 8 boundaries</a>.  They have also launched a series of virtual trainings in Malayalam under the name of <a href="https://wiki.openstreetmap.org/wiki/India/Virtual_Mappy_Hours">Virtual Mappy Hours</a>, led by <a href="https://twitter.com/arkarjun">Ark Arjun</a>.</li>
+</ul>
+
+<p><img src="https://cdn.hotosm.org/website/OSMK4.jpeg" alt="OSMK4.jpeg" /></p>
+
+<p>The online outreach programs by OSM Kerala helped popularise the concept of open maps among the student community and gain new volunteers. Our trainers, Ark Arjun, Kelvin, <a href="https://twitter.com/vip3927">Vipindas</a>, <a href="https://twitter.com/123_adhil">Adhil Ashraf</a>, Jyotish, and Saritha KM, were invited by various institutions for training sessions on OSM. They held talks online for a variety of audiences to increase awareness of OSM within the region.</p>
+
+<p>Currently, with continued efforts from volunteers, Kerala now has the following boundary layers available in OpenStreetMap.</p>
+<ul>
+<li>State Boundary - Admin level - Single Geometry</li>
+<li>District Boundary - Admin level 5 - 14 Geometries</li>
+<li>Revenue subdivision boundaries- Admin level 6 - 77 Geometries</li>
+<li>Local Government Boundary - Admin level 8 - 1034 Geometries</li>
+<li>Ward level Boundary - Admin level 10 (in progress, completed more than 50%)</li>
+</ul>
+
+<p>Also, under <a href="https://meta.wikimedia.org/wiki/User:Gnoeee">Jinoy Tom Jacob</a> and the German mappers Heinz Vieth and Marcel Ottiger, every geometry (districts, sub-districts, and the local government) is being mapped, and individual IDs are being generated in Wikidat with the corresponding Wikipedia pages in an effort to digitize the ten admin-level boundaries of Kerala.  With almost half of the digitization completed, this project has taken data dissemination to the next level.</p>
+
+<p><img src="https://cdn.hotosm.org/website/osmk5.png" alt="osmk5.png" /></p>
+
+<p><strong>Mapping the Future</strong></p>
+<ul>
+<li>The OSM Kerala community has made great strides towards building a sustainable community and producing higher quality data through the mapping of local wards. The community is pursuing the need for micro mapping and data validation of the created datasets. The plan is to fulfill these needs by replicating the Koorachundu model with some changes. Some major projects that have been kickstarted in State-level mapping are:</li>
+<li>Pudussery panchayat mapping: As part of the <a href="https://unnatbharatabhiyan.gov.in:8443/new-website/">Unnat Bharat Abhiyan </a>project under the <a href="https://iitpkd.ac.in/">Indian Institute of Technology (IIT) Palakkad</a>, the community has started a similar project with a pilot area of the Pudussery panchayat.</li>
+<li>Adat panchayat mapping: A collaboration with the Adat panchayat, Thrissur was made to carry out micro-level mapping of the panchayat and validate the datasets created with the officials.</li>
+<li><a href="https://www.google.com/url?q=https://wiki.openstreetmap.org/wiki/Kerala/Health_Facilities&amp;sa=D&amp;source=editors&amp;ust=1627622425304000&amp;usg=AOvVaw3y7QDcrym4PVLC4eCazuFc">Standardization of and hierarchy setting for health care facility mapping. </a></li>
+</ul>
+
+<p>We are excited about our journey so far and are committed to improving the open data availability and usage in the state of Kerala.</p>
+
+<p><em>(1). These datasets are no longer publicly accessible.</em></p>
+
+
+  </div>
+
+</section>
+</div>
+</Layout>
+<style>
+  .article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .news-feature-image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .news-summary {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: #333;
+  }
+
+  .news-content p {
+    margin: 10px 0;
+  }
+
+  /* Additional styling can be added here */
+</style>

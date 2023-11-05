@@ -13,8 +13,8 @@ export default function Navbar() {
           <div className="m-2 p-2 container mx-auto">
             <div className="flex justify-between items-center">
               <div className="flex items-center">
-                <div>
-                  <img src="/osmkerala.png" alt="logo" width={100} />
+                <div class=" pr-4">
+                  <img src="/osm_logo/osm-logo@3x.svg" alt="logo" width={70} />
                 </div>
                 <a href="/">
                   <div className="text-3xl font-bold">OSM Kerala</div>

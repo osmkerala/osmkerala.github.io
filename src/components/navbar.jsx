@@ -26,7 +26,7 @@ export default function Navbar() {
                 <NavbarButton isMobile={false} link="/about" text="ABOUT US" />
                 <NavbarButton
                   isMobile={false}
-                  link="/community"
+                  link="/mapathon-keralam-osm-community-statement"
                   text="COMMUNITY"
                 />
                 <NavbarButton isMobile={false} link="/blogs" text="BLOGS" />
@@ -92,7 +92,7 @@ export default function Navbar() {
               <div className="m-2 p-2 mr-8">
                 <NavbarButton
                   isMobile={true}
-                  link="/community"
+                  link="/mapathon-keralam-osm-community-statement"
                   text="COMMUNITY"
                 />
               </div>

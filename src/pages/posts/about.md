@@ -1,7 +1,6 @@
 ---
 title: "About us"
 date: 2020-10-26T10:34:54+05:30
-draft: false
 description: "A brief description about us"
 author: osmkerala
 authors: ["osmkerala"]
@@ -9,53 +8,27 @@ tags: ["OpenStreetMap", "About Us"]
 layout: ../../layouts/BlogPostLayout.astro
 ---
 
+![image](/group_photo.jpeg)
+
 we are a group of people who love maps and want to keep that data open.Openstreetmap activities in India started active from 2007.OSM Kerala Community has been very active over the past 13 years.Community has been mapping various features over the years.During the 2018 floods, Openstreetmaps was widely used.Community has been actively enaging with various partners.
 
-<!--
-## Partners
-#### OSM India
-Our father and mother
-#### Swathanthra Malayalam Computing
-Our elder brother, Thanks for all the hand holding.
-#### Wikimedians of Kerala
-Our twin sibling, Let's grow together
-
-## Non commercial websites using Openstreetmap specific to Kerala
-#### keralarescue.in
-#### Covid19Kerala
-#### Coronasafe network
-
-## Past Collabrations
-
-### IT Mission-Kerala Govt.
-(OSM Kerala meeting in IT Mission for KSDI’s Mapathon Kerala project community consultation)
-1. ![](1.jpg)
-2. ![](2.jpg)
-
-### Facebooks MapwithAI team
-1. ![](3.png)
-#### Few of them are below.
--->
-
-### Boundaries
-
-### Administrative
+<h3 class="text-2xl font-semibold">Boundaries</h3>
 
 - State Boundaries
 - District Boundaries
 - Taluk Boundaries
 
-### Political
+<h3 class="text-2xl font-semibold">Political</h3>
 
 - Lok Sabha Constituencies
 - Assembly Constituencies
 
-### Local Govt Bodies
+<h3 class="text-2xl font-semibold">Local Govt Bodies</h3>
 
 - Local Bodies in KeralaYes check.svg
 - Local Bodies Wards in Kerala
 
-### Environment
+<h3 class="text-2xl font-semibold">Environment</h3>
 
 - Rivers
 - Lakes
@@ -65,29 +38,25 @@ Our twin sibling, Let's grow together
 - Ponds
 - Forests
 
-### Roads
+<h3 class="text-2xl font-semibold">Roads</h3>
 
 - National Highway
 - State Highway
 - Major District road
 
-### Railways
+<h3 class="text-2xl font-semibold">Railways</h3>
 
 - Railways Stations
 - Kochi Metro
 - Proposed Silverline (K-rail)
 
-### Amenity
+<h3 class="text-2xl font-semibold">Amenity</h3>
 
 - Police station
 - Fire and Rescue station
 - Health Facilities in Kerala
 
-### Activies
+<h3 class="text-2xl font-semibold">Activies</h3>
 
 - Mapathons
 - Webinars
--
--
-
-<!-- ![image](/images/osmkerala_logo.svg) -->

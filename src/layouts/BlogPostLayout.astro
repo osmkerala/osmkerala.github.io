@@ -14,17 +14,19 @@ import Navbar from '../components/navbar.jsx';
   <meta name="generator" content={Astro.generator} />
   <title>{frontmatter.title}</title> <!-- You can include the title from frontmatter -->
 </head>
-<body>
+<body class="dark:bg-slate-800">
   <Navbar client:load />
   <div class="m-2 p-2">
     <h1 class="text-3xl font-bold">{frontmatter.title}</h1>
     <p class="text-lg font-bold">{frontmatter.description}</p>
     <h3 class="text-md font-semibold">Author: {frontmatter.author}</h3>
     <hr class="border-black my-4" />
-    <div class="p-2 m-2"> <!-- Applies default styles for Markdown content -->
-      <!-- Markdown content is injected here -->
-      <slot>
-      </slot>
+    <div
+      class="m-2 p-2 prose lg:prose-xl dark:prose-invert
+      prose-h1:font-bold prose-h1:text-xl
+      prose-a:text-blue-600 prose-p:text-justify prose-img:rounded-xl"
+    >
+      <slot />
     </div>
   </div>
   <Footer />

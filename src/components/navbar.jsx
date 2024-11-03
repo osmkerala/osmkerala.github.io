@@ -23,6 +23,7 @@ export default function Navbar() {
               <div className="hidden text-[#2b2b2b] font-semibold md:flex space-x-4">
                 {/* Add your navigation links here */}
                 <NavbarButton isMobile={false} link="/" text="HOME" />
+                <NavbarButton isMobile={false} link="/sotm" text="SOTM '24" />
                 <NavbarButton isMobile={false} link="/about" text="ABOUT US" />
                 <NavbarButton
                   isMobile={false}
@@ -81,6 +82,9 @@ export default function Navbar() {
               {/* Add your mobile navigation links here */}
               <div className="m-2 p-2 mr-8">
                 <NavbarButton isMobile={true} link="/" text="HOME" />
+              </div>
+              <div className="m-2 p-2 mr-8">
+                <NavbarButton isMobile={true} link="/sotm" text="SOTM '24" />
               </div>
               <div className="m-2 p-2 mr-8">
                 <NavbarButton isMobile={true} link="/blogs" text="BLOGS" />

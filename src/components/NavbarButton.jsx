@@ -1,9 +1,13 @@
 import React from "react";
 
-export default function NavbarButton({ isMobile, text, link }) {
+export default function NavbarButton({ isMobile, text, link, target }) {
   return (
     <a
       href={link}
+      {...(target && { 
+        target,
+        rel: "noopener noreferrer" 
+      })}
       className={`${
         isMobile
           ? "bg-transparent font-bold  hover:bg-white rounded-lg hover:text-[#1a1d20]  active:bg-gray-600"

@@ -10,17 +10,18 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^1.1.5",
-    "@astrojs/react": "^3.0.4",
-    "@astrojs/tailwind": "^5.0.2",
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
-    "astro": "^3.5.4",
-    "framer-motion": "^10.16.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sharp": "^0.32.6",
-    "tailwindcss": "^3.3.5"
+    "@astrojs/mdx": "^4.3.11",
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/tailwind": "^6.0.2",
+    "@tailwindcss/vite": "^4.1.17",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.15.9",
+    "framer-motion": "^12.23.24",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10"
